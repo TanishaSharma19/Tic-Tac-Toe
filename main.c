@@ -11,7 +11,7 @@ int main()
     FILE *p;
     p=fopen("score.txt","a+");
     fclose(p);
-    system("color 09");
+    system("color 04");
     int player=1;
     int choice,score = -1;
     char symbol,re;
